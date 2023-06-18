@@ -1,6 +1,14 @@
 # CloudSegmentaion
 ## To Run
 Run main.py
+
+A menu in the console will appear given you the option to train the ADAU, evaluate models or train the training models. 
+
+## Resetting models
+To reset a model, go into the main directory and delete the checkpoint file for the model you want to reset. 
+
+## Example output 
+![alt text](https://github.com/Chiayen0503/dissertation/blob/master/visualization-samples/sample-loss.png)
 ## Requirements
 Minium system requirments are:
 
