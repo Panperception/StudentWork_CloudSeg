@@ -32,8 +32,7 @@ keras
 PIL
 
 gc
-## Dataset:
-The data set can be found here: https://github.com/mrwalker1/Cloud-Segmentation-Dataset.git
+
 ## References
 Aleena_Suhail, 2021. Model is not learning. [Online] 
 Available at: https://discuss.tensorflow.org/t/model-is-not-learning/5585
