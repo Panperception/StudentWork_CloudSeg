@@ -1,14 +1,44 @@
 # CloudSegmentaion
+## How to download 
+```
+git clone https://github.com/mrwalker1/Cloud-Segmentation-Dataset.git
+```
+
 ## To Run
 Run main.py
 
 A menu in the console will appear given you the option to train the ADAU, evaluate models or train the training models. 
-
+```
+1 Train ADAU, 2 Evaluate models, 3 Train testing models:
+```
 ## Resetting models
 To reset a model, go into the main directory and delete the checkpoint file for the model you want to reset. 
-
+```
+[model name].ckpt.data-00000-of-00001
+[model name].ckpt.index
+```
 ## Example output 
-![alt text](https://github.com/Chiayen0503/dissertation/blob/master/visualization-samples/sample-loss.png)
+![alt text](https://github.com/mrwalker1/Cloud-Segmentation-Dataset/blob/main/Picture21.png)
+
+(A) original image, (B) ADAU, (C) DeepLabV3+, (D) AMEL Attention U-Net, (E) U-Net, (F) AMEL U-Net, (G) Attention U-Net, (H) CloudU-Net, (I) Ground Truth
+## Dataset 
+```
+.
+├── training
+│   ├── img
+        ├── 10010.png
+│       └── ...
+│   └── mask
+│       ├── 10010.png
+│       └── ...
+└── test
+   ├── img
+        ├── 10010.png
+        └── ...
+   └── mask
+       ├── 10010.png
+       └── ...
+```
 ## Requirements
 Minium system requirments are:
 
